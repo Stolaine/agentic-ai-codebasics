@@ -1,0 +1,57 @@
+# ── Credentials & secrets ──
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.jks
+*credentials*.json
+*secret*
+*token*
+
+# ── Vendored / cloned course repo ──
+agentic-ai-crash-course/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# ── Virtual environments ──
+.venv/
+venv/
+env/
+
+# ── Dependency lock (optional – remove if you want to track it) ──
+# uv.lock
+
+# ── Libraries & compiled artifacts ──
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+
+# ── Jupyter / Notebook checkpoints ──
+.ipynb_checkpoints/
+
+# ── OS junk ──
+.DS_Store
+Thumbs.db
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
